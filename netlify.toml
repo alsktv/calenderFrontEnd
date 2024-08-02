@@ -13,3 +13,6 @@
 
 [build.cache]
   paths = ["node_modules", "public", "build"]
+
+[[plugins]]
+  package = "netlify-plugin-image-optim"
