@@ -1,9 +1,8 @@
-import { Box, Button, Input, Text, VStack } from "@chakra-ui/react";
+import { Box, Button, Input, VStack } from "@chakra-ui/react";
 import { useMutation } from "react-query";
 import { APIJwtLogin } from "../api";
 import { useRef, useState } from "react";
-import jwt from "jsonwebtoken"
-import { JwtPayload, jwtDecode } from "jwt-decode";
+import { jwtDecode } from "jwt-decode";
 import { useNavigate } from "react-router-dom";
 
 

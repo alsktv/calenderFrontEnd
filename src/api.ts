@@ -228,7 +228,7 @@ export const APIPutTotalMemo = async ({pk, description}:ITotalMemo) => {
 
     const mutation = `
     mutation{
-    putTotalmemo(pk:${pk}  , description:"${description}"){
+    putTotalMemo(pk:${pk}  , description:"${description}"){
     pk
     description
   }

@@ -1,7 +1,6 @@
-import { Link, Outlet, useNavigate, useNavigation, useParams } from "react-router-dom";
-import {Box ,HStack,Text} from '@chakra-ui/react';
-import React, { useEffect } from 'react';
-import { useState } from 'react';
+import {  Outlet, useNavigate,  useParams } from "react-router-dom";
+import {Box ,HStack} from '@chakra-ui/react';
+import { useEffect } from 'react';
 import FCalendar from "../Components/Home/Calender";
 import FTopBar from "../Components/Home/TopBar";
 import FTotalMemo from "../Components/Home/TotalMemo";

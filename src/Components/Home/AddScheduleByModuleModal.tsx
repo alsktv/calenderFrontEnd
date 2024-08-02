@@ -1,6 +1,6 @@
 import {  Button, Input, Modal, ModalContent , Text, VStack  } from "@chakra-ui/react";
 import { useRef, useState } from "react";
-import { QueryClient, useMutation, useQueryClient } from "react-query";
+import {   useMutation } from "react-query";
 import { APIPostSchedule } from "../../api";
 import { useNavigate, useParams } from "react-router-dom";
 

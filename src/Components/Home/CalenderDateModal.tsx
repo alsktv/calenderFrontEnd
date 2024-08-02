@@ -7,7 +7,6 @@ import {  Box, Button, Checkbox, HStack, Text, VStack, useDisclosure  } from "@c
 import FAddScheduleModal from "./AddScheduleModal";
 import FTodayMemo from "./TodayMemo";
 import { APIGetSchedule , APIDeleteSchedule , APIPutScheduleIschecked } from "../../api";
-import FAddScheduleByModule from './AddScheduleByModuleModal';
 
 //가져오는 스케쥴 1개의 type임
 interface IMySchedule {

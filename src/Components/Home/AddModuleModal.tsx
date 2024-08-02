@@ -62,10 +62,8 @@ export default function FCalenderAddModal({isOpen,onClose}:IProp){
 
   //2.3 -> 스케쥴 모델을 삭제하는 뮤테이션 함수
   const deleteScheduleModule = useMutation(APIDeleteScheduleModule,{
-   onSuccess:(data) => {
-    if(data.data.deleteScheduleModule.status === "ok"){
+   onSuccess:() => {
        getModuleMutation.mutate(Number(userPk))
-    }
    }
   })
 
@@ -108,6 +106,7 @@ export default function FCalenderAddModal({isOpen,onClose}:IProp){
 
     //3.2 ->  모델을 나타내는 모달창에서 X버튼 누를 시 동작하는 함수
     const onClickDeleteButton = (pk:number) => {
+      //console.log(pk)
       deleteScheduleModule.mutate(pk)
      }
 

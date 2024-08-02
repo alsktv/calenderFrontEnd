@@ -1,4 +1,4 @@
-import {  Box, Button, Center, Text, useDisclosure,  } from "@chakra-ui/react";
+import {  Box, Button,  Text, useDisclosure,  } from "@chakra-ui/react";
 import { useMutation } from "react-query";
 import { APIGetTotalMemo } from "../../api";
 import { useEffect, useState } from "react";

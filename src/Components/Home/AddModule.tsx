@@ -1,7 +1,7 @@
 import {  Button, Input, Modal, ModalContent , Text, VStack  } from "@chakra-ui/react";
 import { useState } from "react";
-import { QueryClient, useMutation, useQueryClient } from "react-query";
-import { APIPostSchedule, APIPostScheduleModule } from "../../api";
+import { useMutation} from "react-query";
+import { APIPostScheduleModule } from "../../api";
 import { useParams } from "react-router-dom";
 
 interface IMySchedule {

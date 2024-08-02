@@ -1,8 +1,6 @@
 import { createBrowserRouter } from "react-router-dom"
 import Home from "./Routers/Home"
 import NotFound from "./Routers/NotFound"
-import React from 'react';
-import Calendar from "react-calendar";
 import FCalenderDateModal from "./Components/Home/CalenderDateModal";
 import Login from "./Routers/Login";
 
