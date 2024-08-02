@@ -2,7 +2,7 @@ import {  Button,  Modal, ModalContent, Text, Textarea, VStack } from "@chakra-u
 import { useEffect, useState } from "react";
 import { useMutation } from "react-query";
 import { useParams } from "react-router-dom";
-import {  APIPutUserMemo ,APIGetUserMemo, APIPutTotalMemo, APIGetTotalMemo } from "../../api";
+import {  APIPutTotalMemo, APIGetTotalMemo } from "../../api";
 
 interface IProp {
   isOpen:boolean

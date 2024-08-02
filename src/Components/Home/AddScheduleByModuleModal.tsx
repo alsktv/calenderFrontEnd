@@ -68,8 +68,6 @@ export default function FAddScheduleByModule({isOpen,onClose,onClickButton,descr
   //3 -> inputrefs변수. 키 조작할 때 필요한 변수임
   const inputRefs = useRef<HTMLInputElement[]>([]);
 
-  //4 -> 
-  const navigation = useNavigate()
 
  
   ///////////////////////////////////////////////////////////////////////////////////이벤트 핸들러 함수

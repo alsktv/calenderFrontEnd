@@ -92,12 +92,6 @@ export default function FCalenderDateModal(){
       scheduleOnClose()
       mutation.mutate(Number(userPk))  //put처리된 값을 새롭개 가져오기 위해서 mutation실행해줌.
     } 
-
-    //5 -> post 요청이 발생했을 시 시행되는 함수. post된 값을 즉시 반영하기 위해 사용한다.
-    const handlePostSchedule = () => {
-      console.log("work")
-      mutation.mutate(Number(userPk)) 
-    }
   
 
 
